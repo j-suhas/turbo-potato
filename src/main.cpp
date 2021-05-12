@@ -12,8 +12,8 @@
 DHT_Unified dht(DHTPIN, DHTTYPE);
 
 
-const char* ssid = "Motorola_one_power_JS";
-const char* wifi_password = "Suhas@123";
+const char* ssid = "Your_Wifi_SSID_here";
+const char* wifi_password = "Your Wifi Password Here";
 
 const char* mqtt_server = "192.168.43.162";  // IP of the MQTT broker
 const char* humidity_topic = "home/data/humidity";
