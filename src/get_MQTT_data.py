@@ -11,9 +11,9 @@ MQTT_USER = 'pinkPanther'
 MQTT_PASSWORD = 'pinkPanther'
 MQTT_TOPIC = 'home/+/+'
 
-TS_API_CHWR_KEY = "IERXHH30U3GK21XU"
+TS_API_CHWR_KEY = "XXXXXXXXXXXXXXX"
 TS_URL = "https://api.thingspeak.com/"
-CHANNEL_ID = "469519"
+CHANNEL_ID = "######"
 
 def on_connect(client, userdata, flags, rc):
     """ The callback for when the client receives a CONNACK response from the server."""
